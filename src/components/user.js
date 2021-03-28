@@ -170,12 +170,12 @@ class User extends Component {
                         </form>
                     </Modal.Body>
                     <Modal.Footer>
-                    <Button variant="light" onClick={this.handleDetailClose}>
+                    <button type="button" className="btn btn-light" onClick={this.handleDetailClose}>
                         Cancel
-                    </Button>
-                    <Button variant="info" onClick={this.handleDetailClose}>
+                    </button>
+                    <button type="button" className="btn btn-info" onClick={this.handleDetailClose}>
                         Ok
-                    </Button>
+                    </button>
                     </Modal.Footer>
                 </Modal>
             </React.Fragment>
